@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    color: #5D4E58;
+    background-color: #B5CBB7;
+    color: #fff;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -37,8 +37,7 @@ header {
 }
 
 main {
-    background-color: #B5CBB7;
-    color: #fff;
+    padding: 0 20px;
 }
 
 .nav-menu {
@@ -94,4 +93,8 @@ main {
     content: ' ▼';
     font-size: 0.8em;
     margin-left: 5px;
+}
+
+.container {
+    width: 100%;
 }
