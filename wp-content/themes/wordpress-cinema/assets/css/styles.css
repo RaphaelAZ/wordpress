@@ -37,7 +37,7 @@ header {
 }
 
 main {
-    padding: 0 20px;
+    margin: 0 3rem;
 }
 
 .nav-menu {
@@ -102,9 +102,10 @@ main {
 .articles-list {
     margin-top: 1rem;
     display: flex;
-    justify-content: space-around;
-    gap: 1rem;
+    justify-content: center;
+    gap: 1.6rem;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .article {

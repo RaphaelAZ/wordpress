@@ -2,6 +2,7 @@
 
 <main>
     <div class="container">
+        <h1>Tous les films</h1>
         <?php if ( have_posts() ) : ?>
         <div class="articles-list">
         <?php while ( have_posts() ) : the_post(); ?>
