@@ -98,3 +98,41 @@ main {
 .container {
     width: 100%;
 }
+
+.articles-list {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #5D4E58;
+}
+
+.article div.head {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    a {
+        color: #fff;
+    }   
+
+    a:hover {
+        color: #afafafd7;
+    }
+}
+
+.article div.body {
+    display: flex;
+    justify-content: center;
+    max-width: 10rem;
+}
