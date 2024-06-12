@@ -2,13 +2,18 @@
 
 <main>
     <div class="container">
-        <h1>Tous les films</h1>
+        <h1>
+        <?php if(is_category()) {
+            $category = get_queried_object();
+            echo $category->name;
+        } else { ?>Tous les films<?php } ?>
+        </h1>
         <?php if ( have_posts() ) : ?>
         <div class="articles-list">
         <?php while ( have_posts() ) : the_post(); ?>
             <div class="article">
                 <div class="body">
-                    <div><?php the_content(); ?></div>
+                    <?php the_post_thumbnail('films_thumbnail'); ?>
                 </div>
                 <div class="head">
                     <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>

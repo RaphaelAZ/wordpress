@@ -15,12 +15,10 @@
     <nav class="navbar">
         <?php
         wp_nav_menu( array(
-            'theme_location' => 'header',
+            'theme_location' => 'categories',
             'container'      => false,
             'menu_class'     => 'nav-menu',
-            'fallback_cb'    => '__return_false',
-            'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-            'depth'          => 2,
+            'fallback_cb'    => false
         ) );
         ?>
     </nav>
