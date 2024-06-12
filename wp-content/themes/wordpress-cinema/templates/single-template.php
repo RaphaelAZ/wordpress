@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<?php 
+$page_author_id = get_post_field( 'post_author', get_the_ID() );
+?>
+
 <main>
     <div class="container">
         <div class="single-article">
@@ -17,7 +21,7 @@
                 <div class="author-date">
                     <p><?php 
                         //Fonctions get_the_author() & the_author() -> dépréciées
-                        echo the_author();
+                        echo get_the_author_meta( 'display_name', $page_author_id );
                         echo(' - '.get_the_date()); 
                     ?></p>
                 </div>
