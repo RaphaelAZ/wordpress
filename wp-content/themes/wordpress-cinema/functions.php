@@ -32,7 +32,12 @@ function theme_setup() {
     );
 }
 
+function my_custom_footer() {
+    wp_enqueue_style('custom-footer', get_template_directory_uri() . './assets/css/footer.css');
+}
+
 add_action('wp_enqueue_scripts', 'enqueue_custom_styles_and_scripts');
+add_action('wp_footer', 'my_custom_footer');
 add_action('after_setup_theme', 'theme_setup');
 
 function custom_single_template($template) {
