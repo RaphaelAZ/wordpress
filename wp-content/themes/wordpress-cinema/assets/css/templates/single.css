@@ -47,3 +47,8 @@ body {
     }
 }
 
+@media only screen and (max-device-width : 768px) {
+    .single-article {
+        flex-flow: column;
+    }
+}
