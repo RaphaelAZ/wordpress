@@ -108,7 +108,7 @@ main {
     margin: 1rem 0;
     display: flex;
     justify-content: center;
-    gap: 1.6rem;
+    gap: 1.2rem;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -131,6 +131,9 @@ main {
     justify-content: center;
     font-size: 0.8rem;
     text-align: center;
+    :hover {
+        color: #afafafd7; 
+    }
     a {
         font-size: 0.8rem;
         color: #fff;

@@ -22,8 +22,8 @@ function theme_setup() {
     add_theme_support('menus');
 
     add_theme_support('post-thumbnails');
-    add_image_size('films_thumbnail', 300, 200, true);
-    add_image_size('single_thumbnail', 500, 350, true);
+    add_image_size('films_thumbnail', 300, 200, false);
+    add_image_size('single_thumbnail', 500, 350, false);
     
     register_nav_menus(
         array(
