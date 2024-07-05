@@ -14,7 +14,13 @@ Une fois le projet cloné dans le répertoire, préparez l'installation en suiva
 
 Une fois les prérequis installés, rendez-vous sur votre navigateur et renseignez l'URL :
 ```shell
-localhost/wordpress/
+localhost/wordpress/wp-admin
+```
+
+Les login suivants permettent l'accès à un compte Administrateur :
+```shell
+Login : raph
+Password : Motdepasse123_
 ```
 
 Après avoir installé les dépendances, vous pouvez lancer les serveurs backend et frontend avec les commandes appropriées.
