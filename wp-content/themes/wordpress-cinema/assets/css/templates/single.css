@@ -47,6 +47,19 @@ body {
     }
 }
 
+.horaires-list {
+    background-color: #1B2D2F;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+
+    h3 {
+        text-align: center;
+    }
+}
+
 @media only screen and (max-device-width : 768px) {
     .single-article {
         flex-flow: column;

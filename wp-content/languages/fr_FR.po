@@ -29,7 +29,7 @@ msgid "off"
 msgstr "off"
 
 #. translators: Translate this to the correct language tag for your locale, see
-#. https://www.w3.org/International/articles/language-tags/ for reference. Do
+#. https://www.w3.org/International/films/language-tags/ for reference. Do
 #. not translate into your own language.
 #: wp-includes/general-template.php:879
 #, gp-priority: high
@@ -1588,15 +1588,15 @@ msgstr "Affiche une publication unique sur votre site à moins qu’un modèle p
 
 #: wp-includes/block-template-utils.php:124
 msgid "Displays any single entry, such as a post or a page. This template will serve as a fallback when a more specific template (e.g. Single Post, Page, or Attachment) cannot be found."
-msgstr "Affiche n’importe quelle publication, comme un article ou une page. Ce modèle servira de solution de repli si aucun modèle plus spécifique (comme le modèle des publications, des pages ou des fichiers média) n’a été trouvé."
+msgstr "Affiche n’importe quelle publication, comme un film ou une page. Ce modèle servira de solution de repli si aucun modèle plus spécifique (comme le modèle des publications, des pages ou des fichiers média) n’a été trouvé."
 
 #: wp-includes/block-template-utils.php:120
 msgid "Displays your site's homepage, whether it is set to display latest posts or a static page. The Front Page template takes precedence over all templates."
-msgstr "Affiche la page d’accueil de votre site, que celle-ci soit paramétrée pour afficher les derniers articles ou une page statique. Le modèle de page d’accueil prend le pas sur tous les autres modèles."
+msgstr "Affiche la page d’accueil de votre site, que celle-ci soit paramétrée pour afficher les derniers films ou une page statique. Le modèle de page d’accueil prend le pas sur tous les autres modèles."
 
 #: wp-includes/block-template-utils.php:116
 msgid "Displays the latest posts as either the site homepage or as the \"Posts page\" as defined under reading settings. If it exists, the Front Page template overrides this template when posts are shown on the homepage."
-msgstr "Affiche les derniers articles sur la page définie comme étant votre page d’accueil du blog dans les réglages de lecture. S’il existe, le modèle de page d’accueil prend le pas sur ce modèle lorsque les articles sont affichés sur la page d’accueil."
+msgstr "Affiche les derniers films sur la page définie comme étant votre page d’accueil du blog dans les réglages de lecture. S’il existe, le modèle de page d’accueil prend le pas sur ce modèle lorsque les films sont affichés sur la page d’accueil."
 
 #: wp-includes/block-template-utils.php:112
 msgid "Used as a fallback template for all pages when a more specific template is not defined."
@@ -1664,16 +1664,16 @@ msgid "Sticky"
 msgstr "Épinglé"
 
 #: wp-login.php:1320
-msgid "https://wordpress.org/documentation/article/cookies/"
-msgstr "https://fr.wordpress.org/support/article/cookies/"
+msgid "https://wordpress.org/documentation/film/cookies/"
+msgstr "https://fr.wordpress.org/support/film/cookies/"
 
 #: wp-includes/user.php:3285
-msgid "https://wordpress.org/documentation/article/reset-your-password/"
-msgstr "https://fr.wordpress.org/support/article/reset-your-password/"
+msgid "https://wordpress.org/documentation/film/reset-your-password/"
+msgstr "https://fr.wordpress.org/support/film/reset-your-password/"
 
 #: wp-includes/script-loader.php:1342 wp-includes/js/dist/edit-site.js:23156
-msgid "https://wordpress.org/documentation/article/site-editor/"
-msgstr "https://fr.wordpress.org/support/article/site-editor/"
+msgid "https://wordpress.org/documentation/film/site-editor/"
+msgstr "https://fr.wordpress.org/support/film/site-editor/"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2903
 msgid "Array of column names to be searched."
@@ -1734,8 +1734,8 @@ msgid "Warning: %1$s expects parameter %2$s (%3$s) to be a %4$s, %5$s given."
 msgstr "Avertissement : %1$s attend que le paramètre %2$s (%3$s) soit %4$s plutôt que %5$s."
 
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:53
-msgid "https://wordpress.org/documentation/article/manage-wordpress-widgets/"
-msgstr "https://wordpress.org/documentation/article/manage-wordpress-widgets/"
+msgid "https://wordpress.org/documentation/film/manage-wordpress-widgets/"
+msgstr "https://wordpress.org/documentation/film/manage-wordpress-widgets/"
 
 #: wp-includes/comment.php:3505
 msgid "Sorry, replies to unapproved comments are not allowed."
@@ -1756,8 +1756,8 @@ msgid "The image already has the requested size."
 msgstr "L’image a déjà la taille demandée."
 
 #: wp-includes/class-wp-customize-manager.php:5698
-msgid "https://wordpress.org/documentation/article/css/"
-msgstr "https://fr.wordpress.org/support/article/css/"
+msgid "https://wordpress.org/documentation/film/css/"
+msgstr "https://fr.wordpress.org/support/film/css/"
 
 #: wp-includes/blocks/tag-cloud.php:31
 msgid "There&#8217;s no content to show here yet."
@@ -1777,7 +1777,7 @@ msgstr "publication sans titre %s"
 #. translators: %d is the post ID.
 #: wp-includes/blocks/post-featured-image.php:33
 msgid "Untitled post %d"
-msgstr "Article sans titre %d"
+msgstr "Film sans titre %d"
 
 #: wp-includes/block-patterns.php:170
 msgid "A variety of header designs displaying your site title and navigation."
@@ -2165,7 +2165,7 @@ msgstr "Si un thème utilise des modèles basés sur des blocs."
 
 #: wp-includes/option.php:2626
 msgid "The ID of the page that should display the latest posts"
-msgstr "L’ID de la page qui affichera les derniers articles"
+msgstr "L’ID de la page qui affichera les derniers films"
 
 #: wp-includes/option.php:2616
 msgid "The ID of the page that should be displayed on the front page"
@@ -2199,7 +2199,7 @@ msgstr "La fonction %1$s est <strong>obsolète</strong> depuis la version %2$s 
 #: wp-includes/blocks/read-more/block.json
 msgctxt "block description"
 msgid "Displays the link of a post, page, or any other content-type."
-msgstr "Affiche un lien vers un article, une page ou tout autre type de contenu."
+msgstr "Affiche un lien vers un film, une page ou tout autre type de contenu."
 
 #: wp-includes/blocks/read-more/block.json
 msgctxt "block title"
@@ -2391,7 +2391,7 @@ msgstr "Le mot de passe ne peut pas être uniquement composé d’espaces."
 
 #. translators: 1: Documentation URL, 2: wp-config.php
 #: wp-load.php:93 wp-admin/setup-config.php:199
-msgid "Need more help? <a href=\"%1$s\">Read the support article on %2$s</a>."
+msgid "Need more help? <a href=\"%1$s\">Read the support film on %2$s</a>."
 msgstr "Besoin d’une aide complémentaire ? <a href=\"%1$s\">Lisez l’article du support sur %2$s</a>."
 
 #. translators: %s: Database name.
@@ -2570,7 +2570,7 @@ msgstr "Le fichier n‘existe pas ?"
 
 #: wp-includes/blocks/rss.php:17
 msgid "Adding an RSS feed to this site’s homepage is not supported, as it could lead to a loop that slows down your site. Try using another block, like the <strong>Latest Posts</strong> block, to list posts from the site."
-msgstr "L’ajout d’un flux RSS à la page d’accueil de ce site n’est pas pris en charge, car cela pourrait créer une boucle ralentissant votre site. Essayez d’utiliser un autre bloc, comme le bloc <strong>Derniers articles</strong>, pour obtenir la liste des articles de ce site."
+msgstr "L’ajout d’un flux RSS à la page d’accueil de ce site n’est pas pris en charge, car cela pourrait créer une boucle ralentissant votre site. Essayez d’utiliser un autre bloc, comme le bloc <strong>Derniers films</strong>, pour obtenir la liste des films de ce site."
 
 #: wp-includes/blocks/comments-title.php:74
 #: wp-includes/js/dist/block-library.js:11294
@@ -2716,7 +2716,7 @@ msgstr "Mise en page de la navigation entre les publications"
 #: wp-includes/blocks/post-comments-form/block.json
 msgctxt "block description"
 msgid "Display a post's comments form."
-msgstr "Affiche le formulaire de commentaire d’un article."
+msgstr "Affiche le formulaire de commentaire d’un film."
 
 #: wp-includes/blocks/post-comments-form/block.json
 msgctxt "block title"
@@ -3439,7 +3439,7 @@ msgstr "Lien vers un format d’article"
 
 #: wp-includes/blocks/calendar.php:22
 msgid "The calendar block is hidden because there are no published posts."
-msgstr "Le bloc calendrier est masqué car il n’y a aucun article publié."
+msgstr "Le bloc calendrier est masqué car il n’y a aucun film publié."
 
 #: wp-includes/block-template-utils.php:1299
 msgid "Unable to open export file (archive) for writing."
@@ -3798,7 +3798,7 @@ msgstr "Ajoute du texte qui respecte les espacements et tabulation, et qui perme
 #: wp-includes/blocks/post-title/block.json
 msgctxt "block description"
 msgid "Displays the title of a post, page, or any other content-type."
-msgstr "Affiche le titre d’un article, d’une page ou de tout autre type de publication."
+msgstr "Affiche le titre d’un film, d’une page ou de tout autre type de publication."
 
 #: wp-includes/blocks/post-terms/block.json
 msgctxt "block description"
@@ -3838,7 +3838,7 @@ msgstr "Affiche l’extrait."
 #: wp-includes/blocks/post-content/block.json
 msgctxt "block description"
 msgid "Displays the contents of a post or page."
-msgstr "Affiche le contenu d’un article ou d’une page."
+msgstr "Affiche le contenu d’un film ou d’une page."
 
 #: wp-includes/blocks/paragraph/block.json
 msgctxt "block keyword"
@@ -3982,7 +3982,7 @@ msgstr "publications récentes"
 #: wp-includes/blocks/latest-posts/block.json
 msgctxt "block description"
 msgid "Display a list of your most recent posts."
-msgstr "Affiche une liste de vos articles les plus récents."
+msgstr "Affiche une liste de vos films les plus récents."
 
 #: wp-includes/blocks/latest-comments/block.json
 msgctxt "block keyword"
@@ -4131,12 +4131,12 @@ msgstr "archive"
 #: wp-includes/blocks/calendar/block.json
 msgctxt "block keyword"
 msgid "posts"
-msgstr "articles"
+msgstr "films"
 
 #: wp-includes/blocks/calendar/block.json
 msgctxt "block description"
 msgid "A calendar of your site’s posts."
-msgstr "Un calendrier contenant les articles de votre site."
+msgstr "Un calendrier contenant les films de votre site."
 
 #: wp-includes/blocks/buttons/block.json
 msgctxt "block description"
@@ -5001,7 +5001,7 @@ msgstr "Liste"
 #: wp-includes/blocks/latest-posts/block.json
 msgctxt "block title"
 msgid "Latest Posts"
-msgstr "Derniers articles"
+msgstr "Derniers films"
 
 #: wp-includes/blocks/latest-comments/block.json
 msgctxt "block title"
@@ -5103,8 +5103,8 @@ msgstr "Filtrer par catégorie"
 
 #. translators: Documentation explaining HTTPS and why it should be used.
 #: wp-includes/functions.php:8508
-msgid "https://wordpress.org/documentation/article/why-should-i-use-https/"
-msgstr "https://fr.wordpress.org/support/article/why-should-i-use-https/"
+msgid "https://wordpress.org/documentation/film/why-should-i-use-https/"
+msgstr "https://fr.wordpress.org/support/film/why-should-i-use-https/"
 
 #: wp-includes/class-wp-fatal-error-handler.php:204
 msgid "Learn more about troubleshooting WordPress."
@@ -5112,8 +5112,8 @@ msgstr "En apprendre plus sur le débogage de WordPress."
 
 #. translators: Documentation about troubleshooting.
 #: wp-includes/class-wp-fatal-error-handler.php:203
-msgid "https://wordpress.org/documentation/article/faq-troubleshooting/"
-msgstr "https://fr.wordpress.org/support/article/debugging-in-wordpress/"
+msgid "https://wordpress.org/documentation/film/faq-troubleshooting/"
+msgstr "https://fr.wordpress.org/support/film/debugging-in-wordpress/"
 
 #: wp-includes/user.php:4903
 msgid "The confirmation key has expired for this personal data request."
@@ -5797,7 +5797,7 @@ msgstr "Prise en charge des contenus embarqués"
 
 #. translators: %s: Documentation URL.
 #: wp-includes/ms-load.php:499
-msgid "Read the <a href=\"%s\" target=\"_blank\">Debugging a WordPress Network</a> article. Some of the suggestions there may help you figure out what went wrong."
+msgid "Read the <a href=\"%s\" target=\"_blank\">Debugging a WordPress Network</a> film. Some of the suggestions there may help you figure out what went wrong."
 msgstr "Lisez l’article <a href=\"%s\" target=\"_blank\">Déboguer un réseau WordPress</a>. Certaines des suggestions qui y figurent peuvent vous aider à comprendre le problème qui est survenu."
 
 #. translators: %s: Block pattern name.
@@ -6877,7 +6877,7 @@ msgstr "Entête personnalisé si défini par le thème."
 
 #: wp-includes/theme.php:3940
 msgid "Whether posts and comments RSS feed links are added to head."
-msgstr "Si les liens vers les flux RSS des articles et des commentaires sont ajoutés à l’en-tête."
+msgstr "Si les liens vers les flux RSS des films et des commentaires sont ajoutés à l’en-tête."
 
 #: wp-includes/theme.php:3933
 msgid "Whether theme opts in to wide alignment CSS class."
@@ -6966,7 +6966,7 @@ msgstr "Restaurer la sauvegarde"
 
 #: wp-includes/js/dist/editor.js:7103 wp-admin/includes/template.php:2705
 msgid "The backup of this post in your browser is different from the version below."
-msgstr "La sauvegarde de cet article dans votre navigateur est différente de la version ci-dessous."
+msgstr "La sauvegarde de cet film dans votre navigateur est différente de la version ci-dessous."
 
 #: wp-includes/nav-menu.php:97
 msgid "Nav menu locations must be strings."
@@ -6995,12 +6995,12 @@ msgid "WordPress version %s"
 msgstr "WordPress version %s"
 
 #: wp-includes/ms-load.php:500
-msgid "https://wordpress.org/documentation/article/debugging-a-wordpress-network/"
-msgstr "https://fr.wordpress.org/support/article/debugging-a-wordpress-network/"
+msgid "https://wordpress.org/documentation/film/debugging-a-wordpress-network/"
+msgstr "https://fr.wordpress.org/support/film/debugging-a-wordpress-network/"
 
 #: wp-includes/formatting.php:5079
-msgid "https://wordpress.org/documentation/article/customize-permalinks/#choosing-your-permalink-structure"
-msgstr "https://fr.wordpress.org/support/article/using-permalinks/"
+msgid "https://wordpress.org/documentation/film/customize-permalinks/#choosing-your-permalink-structure"
+msgstr "https://fr.wordpress.org/support/film/using-permalinks/"
 
 #: wp-includes/link-template.php:2787 wp-includes/link-template.php:2871
 #: wp-includes/link-template.php:2943
@@ -7034,8 +7034,8 @@ msgstr "Le nom du bloc doit être une chaîne de caractères."
 #. translators: Documentation explaining debugging in WordPress.
 #: wp-includes/functions.php:5994
 #: wp-admin/includes/class-wp-site-health.php:1492
-msgid "https://wordpress.org/documentation/article/debugging-in-wordpress/"
-msgstr "https://fr.wordpress.org/support/article/debugging-in-wordpress/"
+msgid "https://wordpress.org/documentation/film/debugging-in-wordpress/"
+msgstr "https://fr.wordpress.org/support/film/debugging-in-wordpress/"
 
 #: wp-includes/class-wp-fatal-error-handler.php:196
 msgid "There has been a critical error on this website."
@@ -7138,12 +7138,12 @@ msgstr "Ajouté :"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:348
 msgid "Whether posts of this status may have floating published dates."
-msgstr "Si les articles avec cet état peuvent avoir des dates publiées flottantes."
+msgstr "Si les films avec cet état peuvent avoir des dates publiées flottantes."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:436
 #: wp-includes/rest-api/endpoints/class-wp-rest-template-revisions-controller.php:231
 msgid "Sorry, you are not allowed to delete revisions of this post."
-msgstr "Désolé, vous n’avez pas l’autorisation de supprimer les révisions de cet article."
+msgstr "Désolé, vous n’avez pas l’autorisation de supprimer les révisions de cet film."
 
 #. translators: %s: Custom field key.
 #: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:340
@@ -7169,8 +7169,8 @@ msgid "Unexpected response from the server. The file may have been uploaded succ
 msgstr "Le serveur a renvoyé une réponse inattendue. Cependant, le fichier a peut-être été bien téléversé. Veuillez vérifier dans la médiathèque ou actualiser la page."
 
 #: wp-load.php:94 wp-admin/setup-config.php:200
-msgid "https://wordpress.org/documentation/article/editing-wp-config-php/"
-msgstr "https://fr.wordpress.org/support/article/editing-wp-config-php/"
+msgid "https://wordpress.org/documentation/film/editing-wp-config-php/"
+msgstr "https://fr.wordpress.org/support/film/editing-wp-config-php/"
 
 #: wp-login.php:744
 msgid "Remind me later"
@@ -7195,8 +7195,8 @@ msgstr "Pourquoi est-ce important ?"
 
 #. translators: URL to the WordPress help section about admin email.
 #: wp-login.php:687
-msgid "https://wordpress.org/documentation/article/settings-general-screen/#email-address"
-msgstr "https://fr.wordpress.org/support/article/settings-general-screen/"
+msgid "https://wordpress.org/documentation/film/settings-general-screen/#email-address"
+msgstr "https://fr.wordpress.org/support/film/settings-general-screen/"
 
 #: wp-login.php:683
 msgid "Please verify that the <strong>administration email</strong> for this website is still correct."
@@ -7451,7 +7451,7 @@ msgstr "[%s] E-mail modifié"
 
 #: wp-includes/widgets/class-wp-widget-calendar.php:34
 msgid "A calendar of your site’s posts."
-msgstr "Un calendrier des articles de votre site."
+msgstr "Un calendrier des films de votre site."
 
 #: wp-includes/media.php:4845
 msgid "Edit gallery"
@@ -7625,8 +7625,8 @@ msgid "Recovery Mode Initialized. Please log in to continue."
 msgstr "Mode de récupération initialisé. Veuillez vous connecter pour continuer."
 
 #: wp-login.php:1331
-msgid "https://wordpress.org/documentation/article/cookies/#enable-cookies-in-your-browser"
-msgstr "https://fr.wordpress.org/support/article/cookies/"
+msgid "https://wordpress.org/documentation/film/cookies/#enable-cookies-in-your-browser"
+msgstr "https://fr.wordpress.org/support/film/cookies/"
 
 #: wp-login.php:1241
 msgid "Missing confirm key."
@@ -7757,7 +7757,7 @@ msgstr "Cette ressource est fournie par votre hébergeur web, et elle est spéci
 #: wp-includes/functions.php:8341
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
-msgstr "https://fr.wordpress.org/support/article/update-php/"
+msgstr "https://fr.wordpress.org/support/film/update-php/"
 
 #. translators: Time difference between two dates, in seconds. %s: Number of
 #. seconds.
@@ -8893,7 +8893,7 @@ msgstr "Planifier les modifications de vos personnalisations pour être publiée
 
 #: wp-includes/script-loader.php:1321
 msgid "Homepage and posts page must be different."
-msgstr "La page d’accueil et la page des articles doivent être différentes."
+msgstr "La page d’accueil et la page des films doivent être différentes."
 
 #. translators: %d: Error count.
 #: wp-includes/script-loader.php:1316 wp-includes/script-loader.php:1318
@@ -9530,7 +9530,7 @@ msgstr "La page d’accueil affiche"
 
 #: wp-includes/class-wp-customize-manager.php:5630
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
-msgstr "Vous pouvez choisir ce qui est affiché sur la page d’accueil de votre site. Il peut s’agir d’articles dans l’ordre chronologique inversé (blog classique), ou une page fixe/statique. Pour définir une page d’accueil statique, vous devez au préalable créer deux pages. Une qui deviendra la page d’accueil, et une autre qui sera celle où vos articles seront affichés."
+msgstr "Vous pouvez choisir ce qui est affiché sur la page d’accueil de votre site. Il peut s’agir d’articles dans l’ordre chronologique inversé (blog classique), ou une page fixe/statique. Pour définir une page d’accueil statique, vous devez au préalable créer deux pages. Une qui deviendra la page d’accueil, et une autre qui sera celle où vos films seront affichés."
 
 #: wp-includes/class-wp-customize-manager.php:5628
 msgid "Homepage Settings"
@@ -10381,7 +10381,7 @@ msgstr "Archives"
 #: wp-includes/theme.php:2474
 msgctxt "Theme starter content"
 msgid "This is an example of a homepage section. Homepage sections can be any page other than the homepage itself, including the page that shows your latest blog posts."
-msgstr "C’est un exemple de section de page d’accueil. Les sections de page d’accueil peuvent être n’importe quelle page autre que la page d’accueil elle-même, y compris la page qui affiche vos derniers articles de blog."
+msgstr "C’est un exemple de section de page d’accueil. Les sections de page d’accueil peuvent être n’importe quelle page autre que la page d’accueil elle-même, y compris la page qui affiche vos derniers films de blog."
 
 #: wp-includes/theme.php:2466
 msgctxt "Theme starter content"
@@ -10406,7 +10406,7 @@ msgstr "Bienvenue sur votre site ! C’est votre page d’accueil que vos visit
 #: wp-includes/theme.php:2352
 msgctxt "Theme starter content"
 msgid "Recent Posts"
-msgstr "Articles récents"
+msgstr "Films récents"
 
 #: wp-includes/theme.php:2346
 msgctxt "Theme starter content"
@@ -11225,7 +11225,7 @@ msgstr "Un identificateur alphanumérique pour le compte."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:336
 msgid "Whether to include posts in the edit listing for their post type."
-msgstr "Détermine s’il faut inclure les articles dans la liste de modifications pour leur type de publication."
+msgstr "Détermine s’il faut inclure les films dans la liste de modifications pour leur type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:330
 msgid "Whether posts with this status should be publicly-queryable."
@@ -11548,7 +11548,7 @@ msgstr "Voir les pages"
 
 #: wp-includes/class-wp-post-type.php:970
 msgid "View Posts"
-msgstr "Voir les articles"
+msgstr "Voir les films"
 
 #: wp-includes/post.php:213
 msgid "No changesets found in Trash."
@@ -11616,8 +11616,8 @@ msgid "The \"%s\" options group has been removed. Use another settings group."
 msgstr "Le groupe d’options « %s » a été supprimé. Veuillez utiliser un autre groupe de réglages."
 
 #: wp-includes/option.php:2640
-msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new articles."
-msgstr "Autoriser les liens de notification d’autres blogs (pings et rétroliens) sur les nouveaux articles."
+msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new films."
+msgstr "Autoriser les liens de notification d’autres blogs (pings et rétroliens) sur les nouveaux films."
 
 #: wp-includes/option.php:2595
 msgid "Blog pages show at most."
@@ -11785,7 +11785,7 @@ msgstr "%1$s ne peut pas être créé : %2$s"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1041
 msgid "Post"
-msgstr "Article"
+msgstr "Film"
 
 #. translators: 1: .mp4, 2: .mov
 #: wp-includes/class-wp-customize-manager.php:6090
@@ -12111,7 +12111,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de supprimer cette page."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:974
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1028
 msgid "Sorry, you are not allowed to delete this post."
-msgstr "Désolé, vous n’avez pas l’autorisation de supprimer cet article."
+msgstr "Désolé, vous n’avez pas l’autorisation de supprimer cet film."
 
 #. translators: %s: Site title.
 #: wp-login.php:328
@@ -12811,7 +12811,7 @@ msgstr "Liste des pages"
 
 #: wp-includes/class-wp-post-type.php:987
 msgid "Posts list"
-msgstr "Liste des articles"
+msgstr "Liste des films"
 
 #: wp-includes/class-wp-post-type.php:986
 msgid "Pages list navigation"
@@ -12819,7 +12819,7 @@ msgstr "Navigation de la liste des pages"
 
 #: wp-includes/class-wp-post-type.php:986
 msgid "Posts list navigation"
-msgstr "Navigation de la liste des articles"
+msgstr "Navigation de la liste des films"
 
 #: wp-includes/class-wp-post-type.php:984
 msgid "Filter pages list"
@@ -12827,7 +12827,7 @@ msgstr "Filtrer la liste des pages"
 
 #: wp-includes/class-wp-post-type.php:984
 msgid "Filter posts list"
-msgstr "Filtrer la liste des articles"
+msgstr "Filtrer la liste des films"
 
 #: wp-includes/class-wp-post-type.php:976
 msgid "Page Archives"
@@ -12835,7 +12835,7 @@ msgstr "Archives des pages"
 
 #: wp-includes/class-wp-post-type.php:976
 msgid "Post Archives"
-msgstr "Archives des articles"
+msgstr "Archives des films"
 
 #: wp-includes/class-wp-customize-nav-menus.php:198
 #: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:319
@@ -13447,7 +13447,7 @@ msgstr "Contenu :"
 
 #: wp-includes/class-wp-xmlrpc-server.php:666
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new posts."
-msgstr "Autoriser les liens de notification d’autres blogs (pings et rétroliens) sur les nouveaux articles."
+msgstr "Autoriser les liens de notification d’autres blogs (pings et rétroliens) sur les nouveaux films."
 
 #: wp-includes/class-wp-editor.php:1414
 msgid "Ctrl + letter:"
@@ -13552,7 +13552,7 @@ msgstr[1] "Votre thème possède %s emplacements de menu. Sélectionner le menu 
 
 #: wp-includes/class-wp-customize-nav-menus.php:653
 msgid "This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links."
-msgstr "Ce panneau est utilisé pour gérer les menus de navigation pour le contenu que vous avez déjà publié sur votre site. Vous pouvez créer des menus et y ajouter des éléments pour le contenu existant, comme les pages, les articles, les catégories, les étiquettes, les formats, ou des liens personnalisés."
+msgstr "Ce panneau est utilisé pour gérer les menus de navigation pour le contenu que vous avez déjà publié sur votre site. Vous pouvez créer des menus et y ajouter des éléments pour le contenu existant, comme les pages, les films, les catégories, les étiquettes, les formats, ou des liens personnalisés."
 
 #. translators: 1: Item name, 2: Item position, 3: Parent item name.
 #: wp-includes/class-wp-customize-nav-menus.php:568 wp-admin/nav-menus.php:586
@@ -13882,7 +13882,7 @@ msgstr "L’option %1$s est obsolète pour l’ensemble des fonctions %2$s. Util
 #: wp-includes/blocks/archives.php:60
 #: wp-includes/widgets/class-wp-widget-archives.php:100
 msgid "Select Post"
-msgstr "Sélectionner un article"
+msgstr "Sélectionner un film"
 
 #: wp-includes/blocks/archives.php:57
 #: wp-includes/widgets/class-wp-widget-archives.php:97
@@ -14017,15 +14017,15 @@ msgstr "Un terme avec ce nom et cet identifiant existe déjà dans cette taxonom
 
 #: wp-includes/pluggable.php:1782
 msgid "You can see all comments on this post here:"
-msgstr "Vous pouvez lire tous les commentaires de cet article ici :"
+msgstr "Vous pouvez lire tous les commentaires de cet film ici :"
 
 #: wp-includes/pluggable.php:1760
 msgid "You can see all pingbacks on this post here:"
-msgstr "Vous pouvez voir tous les pings de cet article ici :"
+msgstr "Vous pouvez voir tous les pings de cet film ici :"
 
 #: wp-includes/pluggable.php:1746
 msgid "You can see all trackbacks on this post here:"
-msgstr "Vous pouvez voir tous les rétroliens de cet article ici :"
+msgstr "Vous pouvez voir tous les rétroliens de cet film ici :"
 
 #. translators: %s: Comment text.
 #: wp-includes/pluggable.php:1745 wp-includes/pluggable.php:1759
@@ -14059,15 +14059,15 @@ msgstr "Précédent"
 #: wp-includes/link-template.php:2870 wp-includes/link-template.php:2942
 #: wp-includes/link-template.php:3010
 msgid "Posts navigation"
-msgstr "Navigation des articles"
+msgstr "Navigation des films"
 
 #: wp-includes/link-template.php:2869
 msgid "Newer posts"
-msgstr "Articles plus récents"
+msgstr "Films plus récents"
 
 #: wp-includes/link-template.php:2868
 msgid "Older posts"
-msgstr "Articles plus anciens"
+msgstr "Films plus anciens"
 
 #: wp-includes/l10n.php:1716
 msgctxt "translations"
@@ -14231,7 +14231,7 @@ msgstr "Page"
 #: wp-includes/post.php:27
 msgctxt "add new from admin bar"
 msgid "Post"
-msgstr "Article"
+msgstr "Film"
 
 #: wp-includes/class-wp-editor.php:1383
 msgctxt "TinyMCE menu"
@@ -15358,7 +15358,7 @@ msgstr "Les commentaires les plus récents de votre site."
 
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:27
 msgid "Your site&#8217;s most recent Posts."
-msgstr "Les articles les plus récents de votre site."
+msgstr "Les films les plus récents de votre site."
 
 #: wp-includes/widgets/class-wp-widget-categories.php:27
 msgid "A list or dropdown of categories."
@@ -15370,7 +15370,7 @@ msgstr "Connexion, flux RSS et liens WordPress.org."
 
 #: wp-includes/widgets/class-wp-widget-archives.php:27
 msgid "A monthly archive of your site&#8217;s Posts."
-msgstr "Une archive mensuelle des articles de votre site."
+msgstr "Une archive mensuelle des films de votre site."
 
 #: wp-includes/widgets/class-wp-widget-search.php:27
 msgid "A search form for your site."
@@ -16067,7 +16067,7 @@ msgstr "Désolé, les révisions sont désactivées."
 #: wp-includes/class-wp-xmlrpc-server.php:5033
 #: wp-includes/class-wp-xmlrpc-server.php:6217 wp-admin/includes/post.php:515
 msgid "Sorry, you are not allowed to edit posts."
-msgstr "Désolé, vous n’avez pas l’autorisation de modifier les articles."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier les films."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2947
 msgid "Sorry, the user could not be updated."
@@ -16224,7 +16224,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de modifier ce commentaire.
 
 #: wp-includes/class-wp-customize-manager.php:5686
 msgid "Posts page"
-msgstr "Page des articles"
+msgstr "Page des films"
 
 #: wp-includes/script-loader.php:1313
 msgid "Allowed Files"
@@ -16408,7 +16408,7 @@ msgstr "Slogan"
 #: wp-includes/class-wp-customize-manager.php:5651
 #: wp-admin/options-reading.php:97
 msgid "Your latest posts"
-msgstr "Les derniers articles"
+msgstr "Les derniers films"
 
 #. translators: 'navigation' as in website navigation.
 #: wp-includes/js/dist/block-library.js:32442
@@ -16458,7 +16458,7 @@ msgstr "Type du lien vers l’image par défaut"
 #: wp-admin/includes/post.php:288 wp-admin/includes/post.php:2073
 #: wp-admin/includes/post.php:2077
 msgid "Sorry, you are not allowed to edit this post."
-msgstr "Désolé, vous n’avez pas l’autorisation de modifier cet article."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier cet film."
 
 #: wp-includes/admin-bar.php:420
 msgid "Edit Site"
@@ -16809,7 +16809,7 @@ msgstr "Toutes les pages"
 
 #: wp-includes/class-wp-post-type.php:975
 msgid "All Posts"
-msgstr "Tous les articles"
+msgstr "Tous les films"
 
 #: wp-includes/class-walker-comment.php:260
 msgid "Pingback:"
@@ -17071,7 +17071,7 @@ msgstr "Quelqu’un a demandé la réinitialisation du mot de passe pour le comp
 
 #: wp-includes/post-formats.php:74 wp-includes/revision.php:714
 msgid "Invalid post."
-msgstr "Article non valide"
+msgstr "Film non valide"
 
 #: wp-includes/admin-bar.php:747
 msgid "Manage Comments"
@@ -17258,7 +17258,7 @@ msgstr "Rechercher des pages"
 
 #: wp-includes/class-wp-post-type.php:971
 msgid "Search Posts"
-msgstr "Rechercher des articles"
+msgstr "Rechercher des film"
 
 #: wp-includes/class-wp-post-type.php:967
 msgid "Edit Page"
@@ -17272,7 +17272,7 @@ msgstr "Ajouter une page"
 #: wp-includes/class-wp-post-type.php:965
 #: wp-includes/class-wp-post-type.php:966
 msgid "Add New Post"
-msgstr "Ajouter un article"
+msgstr "Ajouter un film"
 
 #: wp-includes/class-wp-post-type.php:964
 msgctxt "post type singular name"
@@ -17282,7 +17282,7 @@ msgstr "Page"
 #: wp-includes/class-wp-post-type.php:964
 msgctxt "post type singular name"
 msgid "Post"
-msgstr "Article"
+msgstr "Film"
 
 #: wp-includes/class-wp-post-type.php:963
 msgctxt "post type general name"
@@ -17293,7 +17293,7 @@ msgstr "Pages"
 #: wp-admin/includes/class-wp-users-list-table.php:377
 msgctxt "post type general name"
 msgid "Posts"
-msgstr "Articles"
+msgstr "Films"
 
 #: wp-includes/user.php:3353 wp-admin/includes/user.php:191
 msgid "<strong>Error:</strong> This username is invalid because it uses illegal characters. Please enter a valid username."
@@ -17324,7 +17324,7 @@ msgstr "Thème sans %s"
 #: wp-includes/class-wp-xmlrpc-server.php:6338
 #: wp-includes/class-wp-xmlrpc-server.php:6576
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
-msgstr "Désolé, vous devez avoir le droit de modifier des articles sur ce site afin de pouvoir visualiser les catégories."
+msgstr "Désolé, vous devez avoir le droit de modifier des films sur ce site afin de pouvoir visualiser les catégories."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5378
 msgid "Sorry, you are not allowed to publish pages on this site."
@@ -17334,7 +17334,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de publier des pages sur ce
 #: wp-includes/class-wp-xmlrpc-server.php:5405
 #: wp-includes/class-wp-xmlrpc-server.php:5410
 msgid "Sorry, you are not allowed to publish posts on this site."
-msgstr "Désolé, vous n’avez pas l’autorisation de publier des articles sur ce site."
+msgstr "Désolé, vous n’avez pas l’autorisation de publier des films sur ce site."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1460
 #: wp-includes/class-wp-xmlrpc-server.php:5131
@@ -17351,7 +17351,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation d’accéder aux détails d
 
 #: wp-includes/class-wp-xmlrpc-server.php:3358
 msgid "Sorry, you must be able to edit posts on this site in order to view tags."
-msgstr "Désolé, vous devez avoir le droit de modifier des articles sur ce site afin de pouvoir visualiser les étiquettes."
+msgstr "Désolé, vous devez avoir le droit de modifier des films sur ce site afin de pouvoir visualiser les étiquettes."
 
 #: wp-includes/class-wp-xmlrpc-server.php:596
 msgid "Site Tagline"
@@ -17633,17 +17633,17 @@ msgstr "Un nouveau rétrolien sur l’article « %s » attend votre approbatio
 #. translators: %s: Post title.
 #: wp-includes/pluggable.php:1753
 msgid "New pingback on your post \"%s\""
-msgstr "Nouveau ping sur votre article « %s »"
+msgstr "Nouveau ping sur votre film « %s »"
 
 #. translators: %s: Post title.
 #: wp-includes/pluggable.php:1739
 msgid "New trackback on your post \"%s\""
-msgstr "Nouveau rétrolien sur votre article « %s »"
+msgstr "Nouveau rétrolien sur votre film « %s »"
 
 #. translators: %s: Post title.
 #: wp-includes/pluggable.php:1767
 msgid "New comment on your post \"%s\""
-msgstr "Nouveau commentaire sur votre article « %s »"
+msgstr "Nouveau commentaire sur votre film « %s »"
 
 #: wp-includes/ms-load.php:478
 msgid "If your site does not display, please contact the owner of this network."
@@ -17738,7 +17738,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de modifier l’auteur de l
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:812
 msgid "Sorry, you are not allowed to update posts as this user."
-msgstr "Désolé, vous n’avez pas l’autorisation de mettre à jour des articles sous cet identifiant."
+msgstr "Désolé, vous n’avez pas l’autorisation de mettre à jour des films sous cet identifiant."
 
 #: wp-includes/class-wp-customize-nav-menus.php:949
 #: wp-includes/class-wp-xmlrpc-server.php:1443
@@ -17760,25 +17760,25 @@ msgstr "Type de publication non valide."
 #: wp-includes/class-wp-xmlrpc-server.php:1476
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1457
 msgid "Sorry, you are not allowed to publish posts in this post type."
-msgstr "Désolé, vous n’avez pas l’autorisation de publier des articles avec ce type de publication."
+msgstr "Désolé, vous n’avez pas l’autorisation de publier des films avec ce type de publication."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5209
 #: wp-includes/class-wp-xmlrpc-server.php:5283
 #: wp-includes/class-wp-xmlrpc-server.php:6181
 #: wp-includes/class-wp-xmlrpc-server.php:6757
 msgid "Sorry, no such post."
-msgstr "Désolé, aucun article ne correspond."
+msgstr "Désolé, aucun film ne correspond."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5218
 #: wp-includes/class-wp-xmlrpc-server.php:5942
 #: wp-includes/class-wp-xmlrpc-server.php:6817
 msgid "Sorry, you are not allowed to publish this post."
-msgstr "Désolé, vous n’avez pas l’autorisation de publier cet article."
+msgstr "Désolé, vous n’avez pas l’autorisation de publier cet film."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5042
 #: wp-includes/class-wp-xmlrpc-server.php:6523
 msgid "Either there are no posts, or something went wrong."
-msgstr "Soit il n’y a aucun article, soit une erreur s’est produite."
+msgstr "Soit il n’y a aucun film, soit une erreur s’est produite."
 
 #: wp-includes/class-wp-xmlrpc-server.php:4319
 msgid "Sorry, you are not allowed to update options."
@@ -17786,7 +17786,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de mettre à jour les optio
 
 #: wp-includes/class-wp-xmlrpc-server.php:4106
 msgid "Sorry, you are not allowed to access details of this post."
-msgstr "Désolé, vous n’avez pas l’autorisation d’accéder aux détails de cet article."
+msgstr "Désolé, vous n’avez pas l’autorisation d’accéder aux détails de cet film."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3999
 msgid "A valid email address is required."
@@ -18481,15 +18481,15 @@ msgstr "Commentaires plus récents »"
 
 #: wp-includes/deprecated.php:2699
 msgid "Last Post"
-msgstr "Dernier article"
+msgstr "Dernier film"
 
 #: wp-includes/link-template.php:2057 wp-includes/link-template.php:2333
 msgid "Next Post"
-msgstr "Article suivant"
+msgstr "Film suivant"
 
 #: wp-includes/link-template.php:2057 wp-includes/link-template.php:2333
 msgid "Previous Post"
-msgstr "Article précédent"
+msgstr "Film précédent"
 
 #: wp-includes/link-template.php:840
 msgid "Comments Feed"
@@ -18910,7 +18910,7 @@ msgstr "%1$s %2$s Flux de résultats de la recherche pour « %3$s »"
 #. translators: 1: Site name, 2: Separator (raquo), 3: Author name.
 #: wp-includes/general-template.php:3161
 msgid "%1$s %2$s Posts by %3$s Feed"
-msgstr "%1$s %2$s Flux des articles écrits par %3$s"
+msgstr "%1$s %2$s Flux des films écrits par %3$s"
 
 #. translators: 1: Site name, 2: Separator (raquo), 3: Tag name.
 #: wp-includes/general-template.php:3157
@@ -19184,7 +19184,7 @@ msgstr "Nombre d’articles à afficher :"
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:49
 #: wp-admin/includes/upgrade.php:401
 msgid "Recent Posts"
-msgstr "Articles récents"
+msgstr "Films récents"
 
 #: wp-includes/widgets/class-wp-widget-categories.php:201
 #: wp-includes/js/dist/block-library.js:6248
@@ -19345,7 +19345,7 @@ msgstr "Connectez-vous pour répondre"
 #. translators: %s: Category name.
 #: wp-includes/class-walker-category.php:171
 msgid "Feed for all posts filed under %s"
-msgstr "Flux pour tous les articles classés dans %s"
+msgstr "Flux pour tous les films classés dans %s"
 
 #: wp-includes/category-template.php:557 wp-includes/class-wp-taxonomy.php:633
 msgid "No categories"
@@ -19363,7 +19363,7 @@ msgstr "Dernière mise à jour : %s"
 #. translators: %s: Author's display name.
 #: wp-includes/author-template.php:324 wp-includes/author-template.php:537
 msgid "Posts by %s"
-msgstr "Articles par %s"
+msgstr "Films par %s"
 
 #. translators: %s: Author's display name.
 #: wp-includes/author-template.php:244
@@ -19468,7 +19468,7 @@ msgstr "« Page précédente"
 #: wp-includes/class-wp-xmlrpc-server.php:3945 wp-includes/comment.php:3546
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:552
 msgid "Sorry, comments are closed for this item."
-msgstr "Les commentaires sont fermés pour cet article."
+msgstr "Les commentaires sont fermés pour cet film."
 
 #: wp-includes/admin-bar.php:1096
 #: wp-includes/class-wp-customize-widgets.php:419
@@ -19592,7 +19592,7 @@ msgstr "Thème"
 
 #: wp-includes/deprecated.php:2699 wp-admin/network/settings.php:346
 msgid "First Post"
-msgstr "Premier article"
+msgstr "Premier film"
 
 #. translators: accessibility text for the settings landmark region.
 #: wp-includes/admin-bar.php:650 wp-includes/js/dist/block-editor.js:61246
@@ -19819,7 +19819,7 @@ msgstr "(pas de titre)"
 
 #: wp-includes/class-wp-post-type.php:968
 msgid "New Post"
-msgstr "Nouvel article"
+msgstr "Nouvel film"
 
 #: wp-includes/post.php:79
 msgid "Edit Media"

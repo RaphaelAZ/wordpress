@@ -52,3 +52,33 @@ function custom_single_template($template) {
 }
 
 add_filter('template_include', 'custom_single_template');
+
+// Fonction pour récupérer et afficher les horaires
+function afficher_horaires_article_shortcode($atts) {
+    $atts = shortcode_atts(array(
+        'film' => '',
+    ), $atts);
+
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'showtime';
+
+    $query = "SELECT * FROM $table_name";
+    if (!empty($atts['film'])) {
+        $film_name = sanitize_text_field($atts['film']);
+        $query .= $wpdb->prepare(" WHERE film = %s", $film_name);
+    }
+
+    $horaires = $wpdb->get_results($query, ARRAY_A);
+
+    $output = '<div class="horaires-list">
+    <h3>Prochaines diffusions</h3>
+    <ul>';
+    foreach ($horaires as $horaire) {
+        $output .= '<li>' . esc_html($horaire['showtime']) . '</li>';
+    }
+    $output .= '</ul>
+    </div>';
+
+    return $output;
+}
+add_shortcode('afficher_horaires', 'afficher_horaires_article_shortcode');

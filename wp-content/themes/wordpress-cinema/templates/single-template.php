@@ -9,8 +9,11 @@ $page_author_id = get_post_field( 'post_author', get_the_ID() );
         <div class="single-article">
             <div class="thumbnail">
                 <?php the_post_thumbnail('single_thumbnail'); ?>
-                <div class="date-note">
-                    <!-- <?php the_content(); ?> -->
+                <div class="games">
+                    <?php 
+                        $title = get_the_title();
+                        echo do_shortcode( "[afficher_horaires film='$title']" ); 
+                    ?>
                 </div>
             </div>
 
